@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FancyMonkDemo</string>
+    <string name="description">use your email address associated with skiploop to log- in to skiploop team to adda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

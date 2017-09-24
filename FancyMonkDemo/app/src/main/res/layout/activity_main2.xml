@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    android:id="@+id/relative"
+    tools:context="com.example.bansal.fancymonkdemo.Main2Activity">
+
+    <ImageView
+        android:id="@+id/launcher_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/tv_main2_1"
+        android:layout_below="@id/launcher_2"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just one step more"
+        android:textColor="@color/EditFieldColor"
+        />
+    <TextView
+        android:id="@+id/tv_main2_2"
+        android:layout_below="@id/tv_main2_1"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose one of thebelow sign-in method"
+        android:textColor="@color/EditFieldColor"
+        />
+
+    ,<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/pass_btn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Password"
+            android:gravity="center"
+            android:textColor="@color/EditFieldColor"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/otp_btn"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Otp"
+            android:gravity="center"
+            android:textColor="@color/EditFieldColor"
+            android:textSize="18sp"
+            />
+
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="2dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorGrey"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        ></RelativeLayout>
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_blur"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:background="@color/colorRed1"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

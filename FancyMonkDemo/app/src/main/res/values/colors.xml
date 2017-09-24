@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGrey">#edf1ea</color>
+    <color name="colorEmail">#009b76</color>
+    <color name="EditFieldColor">#a7a8aa</color>
+    <color name="buttonColor">#0589cc</color>
+    <color name="colorRed">#c5071d</color>
+    <color name="colorRed1">#803a9b35</color>
+</resources>
